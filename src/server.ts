@@ -13,5 +13,5 @@ async function main() {
     console.log(err);
   }
 }
-
+// call to main
 main();
