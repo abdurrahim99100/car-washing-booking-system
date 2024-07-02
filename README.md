@@ -4,7 +4,7 @@
 
 ## Live URL
 
-[https://car-washing-system-bice.vercel.app](https://car-washing-system-bice.vercel.app)
+[https://car-washing-booking-system.vercel.app](https://car-washing-booking-system.vercel.app)
 
 ## Description
 
@@ -33,7 +33,7 @@ The Car Wash Booking System is a web application that allows users to book car w
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Morshed-17/car-washing-system.git
+   git clone https://github.com/abdurrahim99100/car-washing-booking-system.git
    ```
 
 2. Install dependencies:
@@ -62,7 +62,7 @@ The Car Wash Booking System is a web application that allows users to book car w
    npm run start:dev
    ```
 
-5. Access the application in your browser at `http://localhost:3000`.
+5. Access the application in your browser at `http://localhost:5000`.
 
 ## API Documentation
 
