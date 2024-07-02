@@ -29,4 +29,5 @@ function main() {
         }
     });
 }
+// call to main
 main();

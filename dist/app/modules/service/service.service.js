@@ -37,9 +37,9 @@ const updateService = (id, payload) => __awaiter(void 0, void 0, void 0, functio
     return result;
 });
 const deleteService = (id) => __awaiter(void 0, void 0, void 0, function* () {
-    const result = yield service_model_1.Service.findByIdAndUpdate(id, {
+    const result = yield service_model_1.Service.findByIdAndDelete(id, {
         isDeleted: true,
-    }, { new: true });
+    });
     return result;
 });
 exports.ServiceServices = {

@@ -7,7 +7,7 @@ const loginValidationSchema = zod_1.z.object({
         email: zod_1.z
             .string({ required_error: 'Email is required' })
             .email({ message: 'Invalid email' }),
-        password: zod_1.z.string({ required_error: 'passowrd is required' }),
+        password: zod_1.z.string({ required_error: 'password is required' }),
     }),
 });
 exports.AuthValidations = {

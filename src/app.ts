@@ -14,7 +14,7 @@ app.use(cookieParser());
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Wellcome to Car Wash Backend',
+    message: 'Welcome to Car Wash Backend',
   });
 });
 
